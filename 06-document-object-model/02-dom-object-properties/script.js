@@ -30,15 +30,15 @@ output = document.forms[0].id; //getting the id
 output = document.forms[0].method; //get
 output = document.forms[0].action;
 
-document.forms[0].id = 'new-id';
+document.forms[0].id = "new-id";
 
 //get all links
 output = document.links;
 output = document.links[0];
 output = document.links[0].href;
-output = document.links[0].href = 'https://facebook.com';
-output = document.links[0].id = 'google-link';
-output = document.links[0].className = 'google-class';
+output = document.links[0].href = "https://facebook.com";
+output = document.links[0].id = "google-link";
+output = document.links[0].className = "google-class";
 output = document.links[0].classList; //DOM Token List
 
 //for image

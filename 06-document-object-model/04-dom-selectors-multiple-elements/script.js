@@ -1,6 +1,6 @@
 // querySelectorAll() - returns a nodelist
 
-const listItems = document.querySelectorAll('.item');
+const listItems = document.querySelectorAll(".item");
 console.log(listItems); //this will give us a node list, array like structures.
 //in the node list, we can use the high array methods
 
@@ -57,7 +57,7 @@ console.log(listItems); //this will give us a node list, array like structures.
 //other methods
 //getElementsByClassName() - HTML collection
 
-const listItems2 = document.getElementsByClassName('item');
+const listItems2 = document.getElementsByClassName("item");
 console.log(listItems2);
 console.log(listItems2[2].innerText);
 
@@ -70,7 +70,7 @@ listItemsArray.forEach((item) => {
 });
 
 // getElementsByTagName()
-const listItems3 = document.getElementsByTagName('li');
+const listItems3 = document.getElementsByTagName("li");
 console.log(listItems3);
 console.log(listItems3[0]);
 console.log(listItems3[0].innerText);
